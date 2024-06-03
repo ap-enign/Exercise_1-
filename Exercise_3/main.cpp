@@ -1,6 +1,7 @@
 #include <iostream>
 
-void unique_numbers( int[], const unsigned int);
+
+void unique_numbers( int /*array*/[] , const unsigned int /*col_size*/);
 
 int main (){
 
@@ -16,7 +17,16 @@ int main (){
     return 0;
 }
 
-void unique_numbers( int[], const unsigned int){
-    //Write your code here
-
-}
+void unique_numbers( int array[] , const unsigned int col_size){
+    for (int i = 0; i < col_size; i++) 
+        {
+            int j;
+            for (j = 0; j < i; j++) 
+            {
+                if (array[i] == array[j]) 
+                    break; 
+            }
+            if (i == j) 
+                std::cout << array[i] << " "; 
+        }
+};
