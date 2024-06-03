@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.10.0)
 
 
 # Define the project
-project( EXERCISE_1
+project( EXERCISE_2
          VERSION 1.0.0
          DESCRIPTION "A project to write first cpp program "
          LANGUAGES CXX)
@@ -14,4 +14,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 # Add executable
-add_executable(EXERCISE_1 main.cpp)
+add_executable(EXERCISE_2 main.cpp)
