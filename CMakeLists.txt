@@ -9,3 +9,7 @@ add_subdirectory(Exercise_1)
 add_subdirectory(Exercise_2)
 add_subdirectory(Exercise_3)
 # add_subdirectory(Exercise_4)
+
+
+
+# Path to github of the project: https://github.com/ap-enign/Exercises
